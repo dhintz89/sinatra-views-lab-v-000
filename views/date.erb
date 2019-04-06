@@ -4,7 +4,7 @@
     <title>Date</title>
   </head>
   <body>
-    <% date = %>
-    <p><%= "The date is #{date}" %></p>
+    <% date = Time.new %>
+    <p><%= "The date is #{date.day}, #{date.month} #{date.day}, #{date.year}" %></p>
   </body>
 </html>
